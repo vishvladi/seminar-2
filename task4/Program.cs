@@ -1,0 +1,12 @@
+﻿int xa = 1;
+int ya = 1;
+int za = 1;
+int xb = 8;
+int yb = 10;
+int zb = 10;
+int d2 = (xb - xa)*(xb - xa) + (yb - ya)*(yb - ya);
+var result1 = Math.Sqrt(d2);
+Console.WriteLine("distance 2d " + result1);
+int d3 = (xb - xa)*(xb - xa) + (yb - ya)*(yb - ya) + (zb - za)*(zb - za);
+var result2 = Math.Sqrt(d3);
+Console.WriteLine("distance 3d " + result2);
